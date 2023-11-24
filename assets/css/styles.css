@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    flex-direction:  row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(49 52 61);
+}
+.headers{
+    flex:1;
+    text-align: right;
+}
+.headers h1{
+    background-color: rgb(146 204 206);
+    margin: 10px 0px;
+    padding-right: 5px;
+}
+.navigations{
+    flex:3;
+}
+.navigations nav{
+    display: block;
+    float: right;
+    padding-right: 5%;
+}
+.navigations nav a{
+    color: rgb(146 204 206);
+    padding: 5px 15px;
+    margin: 0px 5px;
+    border-bottom: 3px solid  rgb(146 204 206);
+    text-decoration: none;
+}
