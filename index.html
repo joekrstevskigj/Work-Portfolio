@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
+  <title>Gjorgji Krstevski // Full Stack Developer</title>
   <link rel="stylesheet" href="./assets/css/reset.css" />
   <link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
@@ -14,7 +14,7 @@
   <!-- main logo / nav -->
   <header>
     <div class="headers">
-      <h1>Lernantino</h1>
+      <h1>Gjorgji Krstevski</h1>
     </div>
     <div class="navigations">
       <nav>
@@ -29,15 +29,15 @@
   <!-- hero banner -->
   <section class="hero-banner">
     <div>
-      <h2>Cool subtitle here!</h2>
+      <h2>Full Stack Developer</h2>
     </div>
   </section>
 
   <main class="page-wrapper">
     <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
-      <article>
+    <section class="page-section row" id="about">
+      <h2 class="column">About Me</h2>
+      <article class="long-column">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum sed felis in imperdiet. Nulla aliquam sit amet mi fringilla tristique. Pellentesque gravida feugiat vehicula. Etiam porttitor sollicitudin augue, vitae sollicitudin est fermentum cursus. Cras laoreet magna nec nunc porta maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam ac ornare turpis. Aliquam maximus nunc risus, eu ultrices libero condimentum ut.
         </p>
@@ -49,53 +49,88 @@
 
     <!-- portfolio container -->
     <section class="page-section" id="work">
-      <h2>Work</h2>
-      <div id="main-work">
-        <a href="https://google.com/">
-          <div>
-            <h3>Surf Report</h3>
-            <p>MERN Stack</p>
+      <div class="row">
+        <h2 class="column">Work</h2>
+        <div class="long-column">
+          <div class="row">
+            <div class="column work-banner">
+              <div>
+                <h3>
+                  Surf Report
+                </h3>
+                <p>MERN Stack</p>
+              </div>
+              <a href="https://www.kongregate.com/games/WootraGames/carveola-incident/" target="_blank">
+                <img class="big-pic" src="./assets/images/02-portfolio-4.jpg" alt="Screenshot of the title screen of the game 'Carveola Incident'" />
+              </a>
+            </div>
           </div>
-        </a>
-      </div>
-      <div id="rest-of-work">
-        <a href="https://google.com/">
-          <div>
-            <h3>LED Wall</h3>
-            <p>Node/IoT</p>
+      
+          <div class="row">
+            <div class="column work-banner">
+              <div>
+                <h3>
+                  LED WALL
+                </h3>
+                <p>Node/IoT</p>
+              </div>
+              <a href="http://www.google.com/" target="_blank">
+                <img src="./assets/images/02-portfolio-1.jpg" alt="Screenshot of the title screen of the game 'Ambush'" />
+              </a>
+            </div>
+            <div class="column work-banner">
+              <div>
+                <h3>
+                  Calculator
+                </h3>
+                <p>React/JavaScript / CSS</p>
+              </div>
+              <a href="http://www.google.com/" target="_blank">
+                <img src="./assets/images/02-portfolio-2.jpg" alt="Screenshot of the title screen of the game 'Ambush'" />
+              </a>
+            </div>
           </div>
-        </a>
-        <a href="https://google.com/">
-          <div>
-            <h3>Calculator</h3>
-            <p>React/JavaScript/CSS</p>
+
+          <div class="row">
+            <div class="column work-banner">
+              <div>
+                <h3>
+                  Paste Puzzels
+                </h3>
+                <p>MERN Stacks</p>
+              </div>
+              <a href="http://www.google.com/" target="_blank">
+                <img src="./assets/images/02-portfolio-3.jpg" alt="Screenshot of the title screen of the game 'Ambush'" />
+              </a>
+            </div>
+            <div class="column work-banner">
+              <div>
+                <h3>
+                  Run Buddy
+                </h3>
+                <p>HTML / CSS</p>
+              </div>
+              <a href="http://www.google.com/" target="_blank">
+                <img src="./assets/images/02-run-buddy.jpg" alt="Screenshot of the title screen of the game 'Ambush'" />
+              </a>
+            </div>
           </div>
-        </a>
-        <a href="https://google.com/">
-          <div>
-            <h3>Pastel Puzzels</h3>
-            <p>MERN Stack</p>
-          </div>
-        </a>
-        <a href="https://google.com/">
-          <div>
-            <h3>Run Buddy</h3>
-            <p>HTML/CSS</p>
-          </div>
-        </a>
+        </div>
       </div>
     </section>
 
     <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-      <nav>
-        <a href="">555-555-555</a>
-        <a href="">krstevskigj@gmail.com</a>
-        <a href="">GitHub</a>
-        <a href="">Twitter</a>
-        <a href="">Spotify</a>
-      </nav>
+    <section class="page-section row" id="contact">
+        <h2 class="column">Contact Me</h2>
+        <div class="long-column">
+          <ul>
+            <li><a href="">555-555-555</a></li>
+            <li><a href="">krstevskigj@gmail.com</a></li>
+            <li><a href="">GitHub</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Spotify</a></li>
+          </ul>
+        </div>
     </section>
   </main>
 </body>
