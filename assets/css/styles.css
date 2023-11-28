@@ -34,7 +34,7 @@ header{
 
 .navigations nav a{
     color: var(--nav-txt-color);
-    padding: 5px 15px;
+    padding: 5px 12px;
     margin: 0px 5px;
     border-bottom: 3px solid var(--nav-txt-color);
     box-shadow: inset 0 0 0 0 var(--nav-txt-color);
