@@ -47,16 +47,17 @@ header{
 }
 
 .hero-banner div{
-    background-image: url(../images/02-hero-bg.jpg);
+    background-image: url(../images/hero-banner-gjk.png);
     background-repeat: no-repeat;
     background-position: 0% 45%;
     background-size: 100% 600px;
     width: 100%;
     height: 350px;
-    background-color:rgba(28, 88, 137, 0.5);
-    background-blend-mode: overlay;
+    background-color:rgb(25 92 138);
+    background-size: 500px 350px;
+    background-position: start;
     position: relative;
-    object-fit: contain;
+    
 }
 
 .hero-banner h2{
@@ -123,8 +124,15 @@ header{
    width: 100%;
    height: 200px;
    object-fit: cover;
+   object-position: 0px -50px;
    border: solid 5px var(--nav-txt-color);
-   opacity: 1;
+}
+
+#ambush-img{
+    object-position: 0px 0px;
+}
+#ballistic-img, #fronts-img, #ectology-img {
+    object-position: 0px -40px;
 }
 
 .work-banner{
@@ -214,6 +222,9 @@ color: white;
     }
     .long-column li {
         float: left;
+    }
+    #ballistic-img, #fronts-img, #ectology-img{
+        object-position: 0px 0px;
     }
   }
 
