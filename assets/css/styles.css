@@ -124,15 +124,8 @@ header{
    width: 100%;
    height: 200px;
    object-fit: cover;
-   object-position: 0px -50px;
+   object-position: 0px 0px;
    border: solid 5px var(--nav-txt-color);
-}
-
-#ambush-img{
-    object-position: 0px 0px;
-}
-#ballistic-img, #fronts-img, #ectology-img {
-    object-position: 0px -40px;
 }
 
 .work-banner{
@@ -222,9 +215,6 @@ color: white;
     }
     .long-column li {
         float: left;
-    }
-    #ballistic-img, #fronts-img, #ectology-img{
-        object-position: 0px 0px;
     }
   }
 
